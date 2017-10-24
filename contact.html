@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>It's a New Day Painting</title>
+		<link rel="stylesheet" type="text/css" href="main.css">
+		<script src="formvalidate.js" type="text/javascript"></script>
+	</head>
+	<body>
+		<section id="header">
+			<header>
+				<div id="titleheading">
+					<h1>It's A New Day Painting</h1>
+					<h4>Interior Exterior Painting</h4>
+					<img src="Images/brush-in-can.jpg" id="brushincan" alt="brush in can">
+					<img src="Images/color-picker.jpg" id="colorpicker" alt="color picker">
+				</div>
+				<nav id="navigation">
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="promotions.html">Promotions</a></li>
+						<li><a href="contact.html">Contact Us</a></li>
+					</ul>					
+				</nav>
+			</header>			
+		</section>
+		<section id="contact">
+			<div id="info">
+				<h4>Contact Us</h4>
+				<p>Please feel free to fill out the following form to allow one of our employees to contact you about any of your painting needs. If you are looking to set up an appointment for a free estimate please select the option. Responses are returned within two working days.</p>
+			</div>
+			<form id="contactform" action="index.html">
+				<fieldset id="userinput">
+					<legend>Contact Information</legend>
+					<ol>
+						<li>
+							<label for="fullname">Full Name</label>
+							<input id="fullname" name="fullname" type="text" />
+							<p class="contactError error" id="fullname_error">* Required field</p>
+						</li>
+						<li>
+							<label for="address">Address</label>
+							<input id="address" name="address" type="text" />
+							<p class="contactError error" id="address_error">* Required field</p>
+						</li>
+						<li>
+							<label for="phone">Phone Number</label>
+							<input id="phone" name="phone" type="tel" />
+							<p class="contactError error" id="phone_error">* Required field</p>
+							<p class="contactError error" id="phonelength_error">* Ten digit phone number required</p>
+						</li>
+						<li>
+							<label for="email">Email</label>
+							<input id="email" name="email" type="text" />
+							<p class="contactError error" id="email_error">* Required field</p>
+							<p class="contactError error" id="emailformat_error">* Invalid email address</p>
+						</li>
+						<li>
+							<label for="estimatebox">Estimate</label>
+							<select id="estimatebox" name="estimatebox">
+								<option>- Choice -</option>
+								<option value="yes">Yes</option>
+								<option value="no">No</option>
+							</select>
+							<p class="contactError error" id="estimate_error">* A choice of yes or no is required</p>
+						</li>
+					</ol>
+				</fieldset>
+				<fieldset id="commentsection">
+					<legend>Let us know what you need to know!</legend>
+					<textarea name="comments" form="contactform" placeholder="Insert your text here..."></textarea>
+				</fieldset>
+				<fieldset id="submitreset">
+					<button type="submit" id="submit">Submit</button>
+					<button type="reset" id="resetButton">Reset</button>
+				</fieldset>
+			</form>
+		</section>
+		<footer>
+			<nav id="footernav">
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="promotions.html">Promotions</a></li>
+					<li><a href="contact.html">Contact Us</a></li>
+				</ul>	
+			</nav>
+		</footer>
+    </body>
+</html>

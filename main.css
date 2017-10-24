@@ -1,0 +1,340 @@
+/* Common css */
+
+html
+{
+	padding: 20px;
+	background-color: #E5DEC4;
+}
+
+body
+{
+	width: 900px;
+	margin: 0px auto;
+	background-color: #77B300;
+	border: 2px solid #000;
+	padding-top: 15px;
+	font-family: verdana;
+}
+
+#header
+{
+	width: 825px;
+	height: 100px;
+	margin: 0px auto;
+	border: 2px solid #000;
+	position: relative;
+	background: linear-gradient(to bottom, #CDEB8E 0%,#A5C956 100%);
+}
+
+#titleheading h1
+{
+	text-align: center;
+	margin-bottom: 0px;
+	text-shadow: 2px 2px #FFF;
+	color: #334D00;
+}
+
+#titleheading h4
+{
+	text-align: center;
+	margin-top: 1px;
+	text-shadow: 1px 1px #FFF;
+	color: #334D00;
+}
+
+#brushincan
+{
+	height: 100px;
+	width: 100px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+
+#colorpicker
+{
+	height: 100px;
+	width: 100px;
+	position: absolute;
+	right: 0px;
+	top: 0px;
+}
+
+#navigation
+{
+	text-align: center;
+	width: 825px;
+	margin-top: 3.55%;
+}
+
+#navigation ul
+{
+	width: 330px;
+	padding-left: 0px;
+	margin: 0px auto;
+	border: 2px solid #000;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	background-color: #A5C956;
+}
+
+#navigation li
+{
+	display: inline;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+
+#navigation li a
+{
+	text-decoration: none;
+	font-weight: bold;
+}
+
+#navigation li a:visited, #navigation li a:active, #navigation li a:link
+{
+	color: #334D00;
+}
+
+#navigation li a:hover, #navigation li a:focus
+{
+	color: #FFF;
+	background-color: #77B300;
+}
+
+footer
+{
+	width: 250px;
+	height: 15px;
+	margin: 0px auto -1px auto;
+	border: 1px solid #000;
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+	background-color: #A5C956;
+	clear: both;
+}
+
+#footernav
+{
+	text-align: center;
+	font-size: .75em;
+	margin-top: -13px;
+}
+
+#footernav ul
+{
+	padding-left: 0px;
+	padding-top: .51%;
+}
+
+#footernav ul li
+{
+	display: inline;
+	line-height: 15px;
+	margin-right: 7px;
+	margin-left: 7px;
+}
+
+#footernav ul li a
+{
+	text-decoration: none;
+	line-height: 13px;
+}
+
+#footernav li a:visited, #footernav li a:active, #footernav li a:link
+{
+	color: #334D00;
+}
+
+#footernav li a:hover, #footernav li a:focus
+{
+	color: #FFF;
+	background-color: #77B300;
+}
+
+/* index.html css */
+#content
+{
+	width: 825px;
+	margin: 10px auto 20px auto;
+	padding-top: 20px;
+	position: relative;
+}
+
+#description
+{
+	width: 400px;
+	float: left;
+	border: 1px solid #000;
+	background-color: #E5DEC4;
+	text-align: center;
+}
+
+#deal
+{
+	width: 400px;
+	float: right;
+	border: 1px solid #000;
+	background-color: #E5DEC4;
+	text-align: center;
+	margin-top: 20px;
+}
+
+#description h3, #deal h4
+{
+	margin-top: 5px;
+	margin-bottom: 5px;
+	color: #A5C956;
+	text-shadow: 1px 1px #000;
+}
+
+#description p, #deal p
+{
+	width: 375px;
+	margin: 0px auto;
+	padding-bottom: 10px;
+}
+
+#painter
+{
+	width: 500px;
+	height: 500px;
+	margin-top: 10px;
+	margin-left: 150px;
+	border: 1px solid #000;
+	padding: 3px;
+	background-color: #E5DEC4;
+}
+
+/* Prompotions page css */
+#promotions
+{
+	width: 750px;
+	margin: 35px auto;
+	background-color: #E5DEC4;
+	border: 1px solid #000;
+}
+
+#interior, #exterior
+{
+	width: 500px;
+	margin: 0px auto;
+}
+
+#interior h4, #exterior h4
+{
+	margin-bottom: 5px;
+	color: #A5C956;
+	text-shadow: 1px 1px #000;
+}
+
+#exterior
+{
+	padding-top: 10px;
+}
+
+#interior ul, #exterior ul
+{
+	padding-left: 0px;
+}
+
+#interior ul li, #exterior ul li
+{
+	list-style: none;
+}
+
+#interiorpaint
+{
+	height: 135px;
+	width: 150px;
+	float: right;
+	margin-top: -20px;
+}
+
+#exteriorpaint
+{
+	height: 135px;
+	width: 150px;
+	float: right;
+}
+
+#estimates
+{
+	width: 500px;
+	margin: 25px auto 5px auto;
+}
+
+#estimates h4
+{
+	margin-bottom: 3px;
+	color: #A5C956;
+	text-shadow: 1px 1px #000;
+}
+
+#estimates p
+{
+	margin-top: 5px;
+}
+
+#estimates a
+{
+	text-decoration: none;
+}
+
+#estimates a:link, #estimates a:visited, #estimates a:active
+{
+	color: #77B300;
+}
+
+/* Contact Page */
+.error 
+{
+	color: red;
+}
+
+#info h4
+{
+	margin-bottom: 0px;
+	color: #A5C956;
+	text-shadow: 1px 1px #000;
+}
+
+#contact
+{
+	background-color: #E5DEC4;
+	width: 825px;
+	margin: 35px auto 10px auto;
+	border: 1px solid #000;
+}
+
+#info, #contactform
+{
+	width: 800px;
+	margin: 0px auto 10px auto;
+}
+
+#userinput ol li
+{
+	list-style: none;
+	margin-top: 3px;
+	margin-bottom: 5px;
+}
+
+#userinput ol li label
+{
+	width: 125px;
+	display: inline-block;
+}
+
+#commentsection textarea
+{
+	width: 400px;
+	height: 150px;
+	margin-left: 30px;	
+}
+
+#userinput ol li input:focus
+{
+	background-color: #CCE6FF;
+	color: #E68A00;
+}
